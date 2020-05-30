@@ -2,8 +2,8 @@ const fs = require("fs");
 
 module.exports = (name, classComponent = false) => {
   name = `${name[0].toUpperCase()}${name.substring(1)}`;
-  const classComponentTempPath = "./templates/classComponentTemplate.js",
-    functionComponentTempPath = "./templates/functionalComponentTemplate.js";
+  const classComponentTempPath = "react-boilerplate-component/templates/classComponentTemplate.js",
+    functionComponentTempPath = "react-boilerplate-component/templates/functionalComponentTemplate.js";
   try {
     let funcTemp;
     classComponent
