@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
-const getArgs = require("../src/getArguments.js");
-const writeFile = require("../src/writeFile.js");
-const help = require("../src/help.js");
+const getArgs = require("./src/getArguments.js");
+const writeFile = require("./src/writeFile.js");
+const help = require("./src/help.js");
 
 const args = getArgs();
 
