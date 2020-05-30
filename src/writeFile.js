@@ -12,6 +12,6 @@ module.exports = (name, classComponent = false) => {
     const contents = funcTemp.replace(/Name/g, name);
     fs.writeFileSync(`./${name}.js`, contents, "UTF-8");
   } catch (err) {
-    console.error("Something went wrong. See the repo to log an issue.");
+    console.error(err.message);
   }
 };

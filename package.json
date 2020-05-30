@@ -22,5 +22,6 @@
   "author": "Michael A. Cook",
   "license": "MIT",
   "bugs": "",
-  "homepage": "https://github.com/michaelacook/react-boilerplate-component#readme"
+  "homepage": "https://github.com/michaelacook/react-boilerplate-component#readme",
+  "dependencies": {}
 }
